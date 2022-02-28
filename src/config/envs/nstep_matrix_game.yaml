@@ -1,0 +1,6 @@
+env: nstep_matrix_game
+
+env_args:
+  steps: 10
+  good_branches: 2
+  map_name: nstep_matrix_game
