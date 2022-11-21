@@ -1,5 +1,5 @@
-# The Code for Our Paper MrMIX. 
-Here is the code for our paper "MrMIX: Multihead Residual Value Factorization for Cooperative Multi-Agent Reinforcement Learning". You can run the experiments by the command below:
+# The Code for Our Paper MRVF. 
+Here is the code for our paper "Multihead Residual Value Factorization for Cooperative Multi-Agent Reinforcement Learning". You can run the experiments by the command below:
 ```
 python src/main.py --config=mrmix --env-config=sc2 with env_args.map_name=3m
 ```
