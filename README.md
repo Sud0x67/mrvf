@@ -1,5 +1,32 @@
 # The Code for Our Paper MRVF. 
-Here is the code for our paper "Multihead Residual Value Factorization for Cooperative Multi-Agent Reinforcement Learning". You can run the experiments by the command below:
+
+
+
+Here is the code for our paper ***"Priority Over Quantity: A Self-Incentive Credit Assignment Scheme for Cooperative Multiagent Reinforcement Learning"***. 
+
+Cite with:
+```
+@article{DBLP:journals/tcss/TangWCZ24,
+  author       = {Hao Tang and
+                  Cheng Wang and
+                  Shengbo Chang and
+                  Junqi Zhang},
+  title        = {Priority Over Quantity: {A} Self-Incentive Credit Assignment Scheme
+                  for Cooperative Multiagent Reinforcement Learning},
+  journal      = {{IEEE} Trans. Comput. Soc. Syst.},
+  volume       = {11},
+  number       = {6},
+  pages        = {7766--7777},
+  year         = {2024},
+  url          = {https://doi.org/10.1109/TCSS.2024.3428334},
+  doi          = {10.1109/TCSS.2024.3428334},
+  timestamp    = {Wed, 08 Jan 2025 21:12:03 +0100},
+  biburl       = {https://dblp.org/rec/journals/tcss/TangWCZ24.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+```
+
+You can run the experiments by the command below:
 ```
 python src/main.py --config=mrmix --env-config=sc2 with env_args.map_name=3m
 ```
@@ -10,5 +37,3 @@ We use "res_qmix" for the name of our method at early stage. You can also run th
 python src/main.py --config=res_qmix_*** --env-config=sc2 with env_args.map_name=3m
 ```
 . It works identically as the former command.
-
-We havn't update the name in some codes and filename for the reason of time, which will be updated later. 
